@@ -16,7 +16,6 @@ function App() {
   let handleClick1 = () => {};
   let handleClick2 = () => {};
   if (!rejected) {
-  
     handleClick1 = () => {
       console.log({
         userId,
