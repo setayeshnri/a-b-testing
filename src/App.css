@@ -1,31 +1,33 @@
-body{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow: hidden;
 }
 
-.main{
+.main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 200px;
+  padding-bottom: 0;
+  margin-bottom: 50px;
 }
-.logo{
+.logo {
   width: 90%;
   height: 90%;
   margin-left: -100px;
   margin-top: -100px;
 }
-.main-sect{
+.main-sect {
   margin-right: 300px;
 }
-h1{
+h1 {
   font-size: 64px;
   margin-right: -300px;
 }
-h2{
+h2 {
   font-size: 30px;
 }
-button{
+button {
   font-weight: 900;
   width: 240px;
   height: 40px;
@@ -34,13 +36,30 @@ button{
   background-color: white;
   border-color: rgb(202, 193, 193);
 }
-.create-account{
+.create-account {
   color: white;
   background-color: rgba(0, 183, 255, 0.933);
 }
-.signIn{
+.signIn {
   color: rgba(0, 183, 255, 0.933);
 }
-.terms{
+.terms {
   font-size: 10px;
+}
+.gdpr {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  margin-top: -50px;
+  padding: 30px;
+  padding-bottom: 60px;
+  
+}
+.buttons {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
